@@ -13,17 +13,26 @@ To write a program to find the GCD of two numbers using function.
 3. Compare the two values, to find the smaller number.
 4. Use for() and if() loop to find the GCD of the two numbers.
 
-## Program:
+
 ```
-/*
 Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:B.Bejin 
+RegisterNumber: 22001908 
+## Program:
+def gcd():
+    a,b=int(input()),int(input())
+    if a>b:
+        smaller=b
+    else:
+        smaller=a
+    for i in range(1,smaller+1):
+        if(a%i==0 and b%i==0):
+            hcf=i
+    print("GCD of two numbers is:",hcf)
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![image](https://user-images.githubusercontent.com/118367518/210138123-1cbcc701-d741-4a8a-be97-a7b7a286ec49.png)
 
 
 ## Result:
